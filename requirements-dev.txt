@@ -1,0 +1,6 @@
+alabaster==0.7.12
+cookiecutter>=1.4.0
+mypy==0.770
+pytest==5.3.1
+pytest-cookies==0.4.0
+watchdog==0.9.0
