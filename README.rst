@@ -14,7 +14,7 @@ Features
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``pytest``
 * Sphinx_ docs: Documentation ready for generation with, for example, `Read the Docs`_
 * bump2version_: Pre-configured version bumping with a single command
-* Auto-release to Artifactory when you push a new tag to master (optional)
+* Auto-release to Artifactory when you push a new tag to master (TODO)
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 
@@ -29,7 +29,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/macrae/cookiecutter-pypackage.git
+    cookiecutter https://github.com/WindfallData/cookiecutter.git
 
 Then:
 
