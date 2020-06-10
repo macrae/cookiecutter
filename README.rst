@@ -47,5 +47,4 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 .. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 
 .. _Sphinx: http://sphinx-doc.org/
-.. _Read the Docs: https://readthedocs.io/
 .. _bump2version: https://github.com/c4urself/bump2version

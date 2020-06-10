@@ -3,11 +3,8 @@
 {{ cookiecutter.project_name }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
 
-.. image:: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug | replace("_", "-") }}/workflows/pytest/badge.svg
-
-.. image:: https://readthedocs.org/projects/{{ cookiecutter.project_slug | replace("_", "-") }}/badge/?version=latest
-        :target: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
+.. image:: https://circleci.com/gh/WindfallData/{{ cookiecutter.project_slug }}.svg?style=svg&circle-token=abcdefghijklmnopqrstuvwxyz
+    :target: https://circleci.com/gh/WindfallData/{{ cookiecutter.project_slug }}
 
 {{ cookiecutter.project_short_description }}
 
@@ -21,7 +18,7 @@ Features
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `macrae/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `WindfallData/cookiecutter`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`macrae/cookiecutter-pypackage`: https://github.com/macrae/cookiecutter-pypackage
+.. _`WindfallData/cookiecutter`: https://github.com/WindfallData/cookiecutter
