@@ -2,6 +2,9 @@
 Cookiecutter PyPackage
 ======================
 
+.. image:: https://circleci.com/gh/WindfallData/cookiecutter.svg?style=svg&circle-token=7d96c1b9bcd806bd85706e7bae3d222847ffac91
+    :target: https://circleci.com/gh/WindfallData/cookiecutter
+
 Cookiecutter_ template for a Python package.
 
 * GitHub repo: https://github.com/macrae/cookiecutter-pypackage/
